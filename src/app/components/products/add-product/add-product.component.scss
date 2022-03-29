@@ -1,5 +1,5 @@
-@import '../../scss-partials/flex-row-contianer';
-@import '../../scss-partials/item-detail-form';
+// @import '../../scss-partials/flex-row-contianer';
+// @import '../../scss-partials/item-detail-form';
 
 mat-card#page-view{
     max-width: 600px;
@@ -9,7 +9,7 @@ mat-card#page-view{
     
     mat-card-title{
    
-            @include flex-container(row);
+            // @include flex-container(row);
             align-items: center;
             justify-content: center;
             width: 100%;
@@ -24,6 +24,6 @@ mat-card#page-view{
 }
 
 form#item-detail{
-    @include detail-form(space-around, center);
+    // @include detail-form(space-around, center);
 
 }
